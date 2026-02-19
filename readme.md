@@ -28,3 +28,12 @@ INSERT INTO Client_Master VALUES(0005, 'Owais', 'add1', 'add2', 'delhi', 110025,
 INSERT INTO Client_Master VALUES(0006, 'Meraj', 'add1', 'add2', 'Gorakhpur', 235674, 'UP', 280000);
 
 SELECT * from Client_Master;
+
+
+INSERT INTO Product_Master VALUES(01,  'shirts', '5.0', '15', 200, 50, 350, 250);
+INSERT INTO Product_Master VALUES(02,  'T-shirts', '4.0', '25', 180, 40, 250, 150);
+INSERT INTO Product_Master VALUES(03,  'Jeans', '15.0', '45', 400, 150, 850, 550);
+INSERT INTO Product_Master VALUES(04,  'jackets', '5.0', '15', 200, 50, 350, 250);
+
+
+SELECT * from Product_Master;
